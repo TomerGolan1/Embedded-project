@@ -9,7 +9,8 @@ def quit(tim):
     turtle.bye()
     root.destroy()
 
-def clear_info(): #clear the info of the angles or steps that appears on screen
+#clear the info of the angles or steps that appears on screen
+def clear_info(): 
     clearinfo.grid_forget()
     counterlabel.grid_forget()
     anglelabel.grid_forget()
