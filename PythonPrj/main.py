@@ -4,8 +4,8 @@ import turtle
 import time
 
 
-
-def quit(tim): #quit from the menu
+#quit from the menu
+def quit(tim):
     turtle.bye()
     root.destroy()
 
@@ -33,6 +33,7 @@ def firstTask(): #rotate the stepper motor through the joystick
     bytesChar = bytes(inChar, 'ascii')
     s.write(bytesChar)
     startmovebutton.grid(row=8, column=1)
+    pass
 
 def startmove(): #start moving the stepper motor
     inChar = "5"
